@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*
+*  CSS DEVELOPMENT GUIDELINES:
+*
+*  1.Declaration order (please follow this for consistency): 
+*  => Content (generated content)
+*  => Position and layout (position, z-index, top, bottom, left, right, flexbox properties, float, clear)
+*  => Display and visibility (display, opacity, transform)
+*  => Clipping (overflow, clip)
+*  => Animation (animation, transition)
+*  => Box model [from outside in] (margin, box-shadow, border, border-radius, box-sizing, width, height, padding)
+*  => Background (background, cursor)
+*  => Typography (font-size, line-height, font-family, font-weight, font-style, text-align, text-transform, word-spacing, color)
+*  => Pseudo-classes & pseudo-elements [nested rules] (:hover, :focus, :active, :before, :after, :first-child, :last-child)
+*
+*
+*  2.Layer organization (to be discussed):
+*  => Settings layer (general font-size, color palette)
+*  => Tools (mixins and functions)
+*  => Generic (general styles, box-sizing definitions) [non existant]
+*  => Elements (standard HTML tags styling (no classes/ids)
+*  => Objects (class-based selectors for UNDECORATED design patterns) [containers mainly]
+*  => Components (specific DECORATED UI components)
+*  => Utilities (helper classes, should rely on bootstrap for this layer)
+*
+*
+*  3.Class naming (to be discussed):
+*  => we should use layer prefixes ('e-' for elements, 'o-' for objects, 'c-' for components, 'u-' for utilities)
+*  => also, we should have media query suffixes (either @lg/@md/@sm or @3x/@2x/@1x)
+*
+*
+*  4.Useful links:
+*  => Style guide: https://google.github.io/styleguide/htmlcssguide.html#CSS
+*  => ITCSS methodology [layer system]: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+*  => BEM methodology [layer prefixes]: http://getbem.com
+*
+*
+*/
+
+// PALETTE:
+$firstColorRef: #030303; // FONT
+$secondColorRef: #EFEEEE; // BACKGROUND
+$thirdColorRef: #E19411; // PARTIAL BACKGROUNDS
+$fourthColorRef: #DE1E20; // ERROR / HIGHLIGHT
+$fifthColorRef: #B9ACA4; // SLIGHTLY LIGHTER FONT
+$sixthColorRef: #5F483A; // TAGS?
+$seventhColorRef: #C59D67; // ?
+$eigthColorRef: #B87B83; // ?
